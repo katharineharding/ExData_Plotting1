@@ -28,8 +28,7 @@ data_small <- subset(data, data$date == "2007-02-01" | data$date == "2007-02-02"
 # PLOT 1
 # 
 #
-# original data needs to be divided by 500 to get the x-axis the same as in the example graph
-# plot:
+# 
 #
 png(file = "plot1.png", width = 480, height = 480, units = "px")
 hist(data_small$Global_active_power, 
